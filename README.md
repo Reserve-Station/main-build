@@ -1,54 +1,29 @@
-<div align="center"><img alt="WWDP logo" src="https://raw.githubusercontent.com/WWhiteDreamProject/wwdpublic/master/Resources/Textures/_White/Logo/WWDPDarkSplashIcon.png" width="512px" /></div>
+<p align="center"> <img alt="Space Station 14" width="1280" height="300" src="https://i.imgur.com/2nqz4IN.jpeg" /></p>
 
----
+Это форк из репозитория Goob Station под названием Reserve Station. Чтобы предотвратить форк RobustToolbox, клиент и сервер загружают пакет «content». Этот контент-пак содержит все необходимое для игры на одном конкретном сервере - это контент-пак для Goob Station.
 
-WWDP - форк Einstein Engines, представляющего из себя хард-форк  [Space Station 14](https://github.com/space-wizards/space-station-14), построенный на идеалах и дизайнерском вдохновении семейства серверов BayStation 12 от Space Station 13 с упором на модульный код, который каждый может использовать для создания RP-сервера своей мечты.
-
-WWDP - один из основных серверов русского коммьюнити, который выступает за идеалы свободы отыгрыша, свободы слова и настоящей классической атмосферы Space Station 13 - хаос, веселье, возможности.
-
-Space Station 14 - это ремейк SS13, который работает на собственном движке  [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), собственном игровом движке, написанном на C#.
-
-Поскольку это хард-форк, любой код, взятый из другого апстрима, не может быть напрямую замержен сюда, а должен быть перенесен.
-Весь код, представленный в этом репозитории, может быть изменен по желанию кодербаса Белой Мечты.
+Если вы хотите разместить или создать контент для SS14, перейдите в репозиторий [Space Station 14](https://github.com/space-wizards/space-station-14), так как он содержит как RobustToolbox, так и контент-пак для разработки новых контент-паков и является базой для вашего форка.
 
 ## Ссылки
 
-[Steam](https://store.steampowered.com/app/2585480/Space_Station_Multiverse/) | [Клиент без Steam](https://spacestationmultiverse.com/downloads/) | [Основной репозиторий](https://github.com/Simple-Station/Einstein-Engines)
+[Дискорд Резерва](https://discord.gg/WXZvqzZ2Fc) | [Дискорд Губов](https://discord.gg/goobstation) | [Дискорд разработки Губа](https://discord.gg/zXk2cyhzPN)
 
-## Контрибуция
+## Документация/Вики
 
-В процессе разработки, ожидайте новостей!
+На сайте [Goob Station](https://docs.goobstation.com/) есть документация по содержанию GS14, движку, дизайну игры и многому другому. На нем также есть много ресурсов для новых участников проекта.
+
+## Вклад
+
+Мы рады принять вклад от любого человека. Заходите на [Сервер разработки](https://discord.gg/zXk2cyhzPN), если хотите помочь. Не стесняйтесь проверять [список проблем](https://github.com/Goob-Station/Goob-Station/issues), которые необходимо решить, и любой может их подхватить. Не бойтесь просить о помощи!
+Хотя следование [Space Station 14 contributions guidelines](https://docs.spacestation14.com/en/general-development/codebase-info/pull-request-guidelines.html) не является обязательным для Goob Station, мы рекомендуем ознакомиться с ними, чтобы узнать о лучших практиках.
 
 ## Сборка
 
-Следуйте [гайду от Space Wizards](https://docs.spacestation14.com/en/general-development/setup/setting-up-a-development-environment.html) по настройке рабочей среды, но учитывайте, что наши репозитории отличаются и некоторые вещи могут отличаться.
-Мы предлагаем несколько скриптов, показанных ниже, чтобы облегчить работу.
+1. Клонируйте это репо.
+2. Запустите `RUN_THIS.py` для инициализации подмодулей и загрузки движка.
+3. Скомпилируйте решение.
 
-### Необходимые зависимости
-
-> - Git
-> - .NET SDK 9.0.101
-
-
-### Windows
-
-> 1. Склонируйте данный репозиторий
-> 2. Запустите `git submodule update --init --recursive` в командной строке, чтобы скачать движок игры
-> 3. Запускайте `Scripts/bat/buildAllDebug.bat` после любых изменений в коде проекта
-> 4. Запустите `Scripts/bat/runQuickAll.bat`, чтобы запустить клиент и сервер
-> 5. Подключитесь к локальному серверу и играйте
-
-### Linux
-
-> 1. Склонируйте данный репозиторий.
-> 2. Запустите `git submodule update --init --recursive` в командной строке, чтобы скачать движок игры
-> 3. Запускайте `Scripts/sh/buildAllDebug.sh` после любых изменений в коде проекта
-> 4. Запустите `Scripts/sh/runQuickAll.sh`, чтобы запустить клиент и сервер
-> 5. Подключитесь к локальному серверу и играйте
-
-### MacOS
-
-> Предположительно, также, как и на Линуксе.
+[Более подробные инструкции по сборке проекта.](https://docs.goobstation.com/en/general-development/setup.html)
 
 ## Лицензия
 
