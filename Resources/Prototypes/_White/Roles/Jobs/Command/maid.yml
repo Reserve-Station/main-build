@@ -4,6 +4,8 @@
   name: job-name-maid
   description: job-description-maid
   playTimeTracker: JobMaid
+  setPreference: false
+  whitelistRequired: true
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Medical
