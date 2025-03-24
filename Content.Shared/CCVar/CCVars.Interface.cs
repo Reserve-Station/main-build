@@ -20,7 +20,7 @@ public sealed partial class CCVars
     /// The layout style of the UI
     /// </summary>
     public static readonly CVarDef<string> UILayout =
-        CVarDef.Create("ui.layout", "Separated", CVar.CLIENTONLY | CVar.ARCHIVE);
+        CVarDef.Create("ui.layout", "Default", CVar.CLIENTONLY | CVar.ARCHIVE);
 
     public static readonly CVarDef<string> OverlayScreenChatSize =
         CVarDef.Create("ui.overlay_chat_size", "", CVar.CLIENTONLY | CVar.ARCHIVE);
