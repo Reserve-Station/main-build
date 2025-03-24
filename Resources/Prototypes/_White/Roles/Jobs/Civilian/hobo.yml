@@ -3,6 +3,7 @@
   name: job-name-hobo
   description: job-description-hobo
   playTimeTracker: JobHobo
+  whitelistRequired: true
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Civilian
