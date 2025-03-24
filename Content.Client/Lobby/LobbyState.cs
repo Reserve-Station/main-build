@@ -190,7 +190,7 @@ namespace Content.Client.Lobby
             if (_gameTicker.ServerInfoBlob != null)
                 Lobby!.ServerInfo.SetInfoBlob(_gameTicker.ServerInfoBlob);
 
-            Lobby!.LabelName.SetMarkup("[font=\"Bedstead\" size=20] White Dream [/font]"); // WD EDIT
+            Lobby!.LabelName.SetMarkup("[font=\"Bedstead\" size=20] Reserve Station [/font]"); // WD EDIT
             Lobby!.ChangelogLabel.SetMarkup(Loc.GetString("ui-lobby-changelog")); // WD EDIT
         }
 
