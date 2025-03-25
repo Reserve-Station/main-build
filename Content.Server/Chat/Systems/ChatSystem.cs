@@ -193,7 +193,7 @@ public sealed partial class ChatSystem : SharedChatSystem
         LanguagePrototype? languageOverride = null
         )
     {
-        if (message.Contains("/"))
+        if (message.Contains("/")) // Reserve EDIT
             return;
 
         if (HasComp<GhostComponent>(source))
