@@ -193,6 +193,9 @@ public sealed partial class ChatSystem : SharedChatSystem
         LanguagePrototype? languageOverride = null
         )
     {
+        if (message.Contains("/")) // Reserve EDIT
+            return;
+
         if (HasComp<GhostComponent>(source))
         {
             // Ghosts can only send dead chat messages, so we'll forward it to InGame OOC.
