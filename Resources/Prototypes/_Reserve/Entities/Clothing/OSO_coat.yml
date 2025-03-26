@@ -1,0 +1,31 @@
+- type: entity
+  parent: [ClothingOuterStorageBase, AllowSuitStorageClothing]
+  id: ClothingOuterCoatOSO
+  name: военная шинель ОСО
+  description: Бронированная шинель, используемая высшими чинами специальных операций.
+  suffix: OSO  
+  components:
+  - type: Sprite
+    sprite: _Reserve/Clothing/OuterClothing/Armor/OSO_coat.rsi
+  - type: Clothing
+    sprite: _Reserve/Clothing/OuterClothing/Armor/OSO_coat.rsi 
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.65 
+        Slash: 0.65
+        Piercing: 0.3
+        Heat: 0.5
+  - type: ExplosionResistance
+    damageCoefficient: 0.9  
+  - type: Storage
+    grid:
+    - 0,0,5,1
+  - type: ContainerContainer
+    containers:
+      storagebase: !type:Container
+        ents: []
+  - type: UserInterface
+    interfaces:
+      enum.StorageUiKey.Key:
+        type: StorageBoundUserInterface
