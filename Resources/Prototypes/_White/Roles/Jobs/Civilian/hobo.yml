@@ -13,7 +13,6 @@
   icon: "JobIconHobo"
   startingGear: HoboGear
   supervisors: job-supervisors-hop
-  canBeAntag: true
   access:
   - Maintenance
 
