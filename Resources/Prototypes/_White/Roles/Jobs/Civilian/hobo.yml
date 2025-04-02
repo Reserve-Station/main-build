@@ -4,23 +4,11 @@
   description: job-description-hobo
   playTimeTracker: JobHobo
   canBeAntag: false
-  whitelistRequired: true
   requirements:
   - !type:CharacterDepartmentTimeRequirement
     department: Civilian
     min: 72000 # 20 ch
-  - !type:CharacterSpeciesRequirement
-    species:
-    - Human
-  - !type:CharacterAgeRequirement
-    min: 65
-    max: 110
-  - !type:CharacterSexRequirement
-    sex:
-    - Male
-  - !type:GenderRequirement
-    gender:
-    - Male
+    - !type:CharacterWhitelistRequirement    
   weight: 20
   icon: "JobIconHobo"
   startingGear: HoboGear
